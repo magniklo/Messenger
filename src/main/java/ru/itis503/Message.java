@@ -23,9 +23,11 @@ public class Message {
     }
 
     public void aboutMessage(){
-        System.out.println("Отправлено сообщение { " +
+        System.out.print("Отправлено сообщение { " +
                 "От - " + user.getName() +
-                ", кому - " + infoObject());
+                ", кому - " + infoObject() +
+                ",сообщение - " + message + " }");
+        System.out.print("Дата отправления - " + time);
     }
 
 
